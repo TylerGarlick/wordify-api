@@ -1,0 +1,30 @@
+{
+  "name": "wordify-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "start": "npx fastify start app.js",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arangojs": "^6.10.0",
+    "boom": "^7.3.0",
+    "fastify": "^1.11.0",
+    "fastify-autoload": "^0.6.0",
+    "fastify-cli": "^0.27.2",
+    "fastify-plugin": "^1.2.0",
+    "joi": "^14.3.1"
+  },
+  "devDependencies": {
+    "tap": "^12.0.0"
+  }
+}
